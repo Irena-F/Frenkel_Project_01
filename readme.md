@@ -14,4 +14,3 @@ This is a brief overview of the project
 
 **DataRaw:** Raw data files used in the project are stored in this directory.
 
-
