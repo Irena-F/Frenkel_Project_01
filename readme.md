@@ -1,16 +1,16 @@
 # Reproducibility assignment for Statistical Consulting BIOS6621
 
-This is a brief overview of the project
+This is a repository for a reproducibility reporting project for Statistical Consulting BIOS6621. The following are descriptions of the subdirectories.
 
 ## Subdirectories
 
-**Background:** This contains background information related to the project.
+- **Background:** This contains background information and literature related to the project.
 
-**Code:** The project's source code and scripts are stored here.
+- **Code:** The project's source code and scripts are stored here.
 
-**Reports:** All project reports and documentation can be found in this directory.
+- **Reports:** All project reports and R markdown files can be found in this directory.
 
-**DataProcessed:** Processed data files and datasets are stored here.
+- **DataProcessed:** Processed data files and datasets are stored here.
 
-**DataRaw:** Raw data files used in the project are stored in this directory.
+- **DataRaw:** Raw data files used in the project are stored in this directory.
 
