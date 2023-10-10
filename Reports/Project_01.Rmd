@@ -12,7 +12,8 @@ knitr::opts_chunk$set(echo = TRUE)
 ### Graph
 ```{r}
 #read in data
-lead_dat <- read.csv("DataRaw/lead-iq-01.csv")
+
+lead_dat <- read.csv("/Users/irenaf/Projects/Frenkel_Project_01/DataRaw/lead-iq-01.csv")
 #Create boxplot
 boxplot(IQ ~ Smelter, data = lead_dat,
         xlab = "Location Status", ylab = "IQ Level",
@@ -54,9 +55,3 @@ kable(tab, align ='lcrr', format = 'simple', col.names = c("Smelter","Sample Siz
 ```{r}
 #The box plot and summary statistics table above shows children living far from the lead smelter had higher IQ levels. The boxplot shows that the far group had higher median IQ levels. The table shows that the far group has a mean IQ of 106.12 and the near group has a mean IQ of 89.19.
 ```
-
-```{r}
-```
-
-
-
