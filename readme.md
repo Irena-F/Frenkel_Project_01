@@ -8,7 +8,7 @@ This is a repository for a reproducibility project for Statistical Consulting BI
 
 - **Code:** The project's source code and scripts are stored here.
 
-- **Reports:** All project reports and R Markdown files and reports can be found in this directory.
+- **Reports:** All project reports and R Markdown files can be found in this directory.
 
 
 - **DataProcessed:** Processed data files and datasets are stored here.
