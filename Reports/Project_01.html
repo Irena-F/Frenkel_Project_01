@@ -360,10 +360,7 @@ display: none;
 <h1>IQ Levels by Location Status</h1>
 <div id="graph" class="section level3">
 <h3>Graph</h3>
-<pre class="r"><code>#read in data
-
-lead_dat &lt;- read.csv(&quot;/Users/irenaf/Projects/Frenkel_Project_01/DataRaw/lead-iq-01.csv&quot;)
-#Create boxplot
+<pre class="r"><code>#Create boxplot
 boxplot(IQ ~ Smelter, data = lead_dat,
         xlab = &quot;Location Status&quot;, ylab = &quot;IQ Level&quot;,
         main = &quot;Box Plot of IQ Level by Location&quot;,
@@ -423,20 +420,7 @@ kable(tab, align =&#39;lcrr&#39;, format = &#39;simple&#39;, col.names = c(&quot
 </tr>
 </tbody>
 </table>
-<pre class="r"><code>#The box plot and summary statistics table above shows children living far from the lead smelter had higher IQ levels. The boxplot shows that the far group had higher median IQ levels. The table shows that the far group has a mean IQ of 92.69 and the near group has a mean IQ of 89.19.</code></pre>
-<pre class="r"><code># Update the incorrect IQ value
-lead_dat$IQ[lead_dat$IQ == 999] &lt;- 99
-library(knitr)
-
-# Re-calculate statistics for the &#39;Far&#39; and &#39;Near&#39; smelter groups
-mean_far &lt;- round(mean(lead_dat$IQ[lead_dat$Smelter == &quot;Far&quot;]),2)
-mean_near &lt;- round(mean(lead_dat$IQ[lead_dat$Smelter == &quot;Near&quot;]),2)
-sd_far &lt;- round(sd(lead_dat$IQ[lead_dat$Smelter == &quot;Far&quot;]),2)
-sd_near &lt;- round(sd(lead_dat$IQ[lead_dat$Smelter == &quot;Near&quot;]),2)
-sample_size_far &lt;- round(sum(lead_dat$Smelter == &quot;Far&quot;),2)
-sample_size_near &lt;- round(sum(lead_dat$Smelter == &quot;Near&quot;),2)
-
-# Rerun code for Table and graph above</code></pre>
+<pre class="r"><code>#The box plot and summary statistics table above shows children living far from the lead smelter had higher IQ levels. The boxplot shows that the far group had higher median IQ levels. The table shows that the far group has a mean IQ of 106.12 and the near group has a mean IQ of 89.19.</code></pre>
 </div>
 </div>
 

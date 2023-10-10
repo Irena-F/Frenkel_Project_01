@@ -9,11 +9,14 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 # IQ Levels by Location Status
 
-### Graph
-```{r}
+```{r, include = FALSE}
 #read in data
-
 lead_dat <- read.csv("/Users/irenaf/Projects/Frenkel_Project_01/DataRaw/lead-iq-01.csv")
+```
+
+### Graph
+
+```{r}
 #Create boxplot
 boxplot(IQ ~ Smelter, data = lead_dat,
         xlab = "Location Status", ylab = "IQ Level",
