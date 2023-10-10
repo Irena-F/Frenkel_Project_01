@@ -45,6 +45,6 @@ sd_near <- round(sd(lead_dat$IQ[lead_dat$Smelter == "Near"]),2)
 sample_size_far <- round(sum(lead_dat$Smelter == "Far"),2)
 sample_size_near <- round(sum(lead_dat$Smelter == "Near"),2)
 
-# Rerun code for Table and graph above
+# Rerun code for Table and graph above with correct IQ value in R markdown
 
 
