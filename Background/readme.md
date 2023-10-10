@@ -9,7 +9,7 @@ To investigate the relationship between low-level lead absorption and neurologic
 ## **Dimensions**
 
 - 124 observations
-- 2 
+- 2 Variables
 
 ## **Variables**
 
